@@ -1,0 +1,61 @@
+    body{
+        background-color: #ffffff;
+    }
+    .container {
+  display: flex;
+}
+
+.clickable-element {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  width: 200px; 
+  height: 250px;
+  text-align: center;
+}
+.clickable-element img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from the parent */
+}
+  .navigation-bar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px; /* Set 10px margin from all sides */
+}
+
+.navigation-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-bar ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navigation-bar ul li:last-child {
+  margin-right: 0;
+}
+
+.navigation-bar ul li a {
+  text-decoration: none;
+  color: #333333;
+  padding: 5px 10px;
+}
+
+.navigation-bar ul li a:hover {
+  background-color: #dddddd;
+}
+video {
+    width: 100%;
+    height: auto;
+  }
+  
